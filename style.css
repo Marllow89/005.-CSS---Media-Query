@@ -1,0 +1,115 @@
+html {
+    background-color: darkgray;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 {
+    position: absolute;
+    top: 5px;
+}
+
+.div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    background-color: #384B70;
+    border-radius: 10%;
+}
+
+.div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: #507687;
+    border-radius: 10%;
+}
+
+.div-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    background-color: #FCFAEE;
+    border-radius: 10%;
+}
+
+.div-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-color: #B8001F;
+    border-radius: 10%;
+}
+
+.div-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+/* Smaller Monitors and Laptops */
+@media (max-width: 1600px) and (min-width: 1201px) {
+    .div-1 {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+/* iPads and Tablets */
+@media (max-width: 1200px) and (min-width: 481px) {
+    .div-1 {
+        width: 450px;
+        height: 450px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) and (min-width: 319px) {
+    .div-1 {
+        width: 300px;
+        height: 300px;
+        font-size: 8px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+}
